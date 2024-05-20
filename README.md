@@ -1,7 +1,6 @@
 # pipex
 This project is about handling pipes.
 
-
 # Example
 $> ./pipex infile "ls -l" "wc -l" outfile
     Should behave like: < infile ls -l | wc -l > outfile
